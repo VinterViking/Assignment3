@@ -1,4 +1,4 @@
-package library;
+package library.entities;
 
 import static org.junit.Assert.*;
 
