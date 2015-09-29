@@ -4,7 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class JUnitMemberDOATest {
+// The MemberDAOTest tests for member, helper and DAO itself
+public class JUnitMemberDAOTest {
 
 	MemberHelper helper = new MemberHelper();
 	MemberDAO members = new MemberDAO(helper);
