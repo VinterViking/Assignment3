@@ -140,7 +140,7 @@ public class Member implements IMember{
 
 	@Override
 	public EMemberState getState() {
-		return null;
+		return this.state;
 	}
 
 	@Override
