@@ -38,7 +38,9 @@ public class Main implements IMainListener {
 		scanner = new Scanner();
 		printer = new Printer();
 		display = new Display();
-		
+		bookDAO = new BookMapDAO(new BookHelper());
+		loanDAO = new LoanMapDAO(new LoanHelper());
+		memberDAO = new MemberDAO(new MemberHelper());
 		setupTestData();
 	}
 
