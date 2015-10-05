@@ -15,8 +15,6 @@ public interface ILoanDAO {
 	
 	public ILoan getLoanByID(int id);
 	
-	public ILoan getLoanByBook(IBook book);
-	
 	public List<ILoan> listLoans();
 	
 	public List<ILoan> findLoansByBorrower(IMember borrower);
@@ -26,6 +24,8 @@ public interface ILoanDAO {
 	public void updateOverDueStatus(Date currentDate);
 
 	public List<ILoan> findOverDueLoans();
+
+	ILoan getLoanByBook(IBook book);
 
 }
 
